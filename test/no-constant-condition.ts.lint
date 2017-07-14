@@ -1,0 +1,17 @@
+if (true) {
+    ~~~~    [unexpected constant condition]
+  console.log('test')
+                     ~nil [Missing semicolon]
+}
+
+while (true) {
+  if (check()) {
+    break
+         ~nil [Missing semicolon]
+  }
+}
+
+export function check () {
+  return true
+             ~nil [Missing semicolon]
+}

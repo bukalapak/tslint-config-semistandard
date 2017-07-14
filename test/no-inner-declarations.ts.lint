@@ -1,0 +1,9 @@
+export const y: number = 10
+                           ~nil [Missing semicolon]
+
+if (y === 0) {
+  function test () {}
+  ~~~~~~~~~~~~~~~~~~~ [move function declaration to program root]
+           ~~~~       ['test' is declared but never used.]
+                   ~~ [block is empty]
+}

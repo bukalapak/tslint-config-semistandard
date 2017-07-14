@@ -1,0 +1,14 @@
+/**
+ * This is a comment.
+ *
+ * ```
+ * function test () {
+ *   return true
+ * }
+ * ```
+ */
+export function test () {
+   return true
+~~~            [Expected indentation of 2 spaces but found 3.]
+              ~nil [Missing semicolon]
+}

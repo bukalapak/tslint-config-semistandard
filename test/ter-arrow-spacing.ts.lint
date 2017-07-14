@@ -1,0 +1,8 @@
+export function exec (cb: () => void) {
+  return cb()
+             ~nil [Missing semicolon]
+}
+
+exec( ()  => null)
+          ~~       [Multiple spaces found before '=>'.]
+                  ~nil [Missing semicolon]

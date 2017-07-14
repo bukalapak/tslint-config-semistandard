@@ -1,0 +1,13 @@
+import{preProcessFile} from 'typescript'
+      ~                                  [missing whitespace]
+       ~                                 [missing whitespace]
+                     ~                   [missing whitespace]
+                                        ~nil [Missing semicolon]
+import {findRule} from 'tslint'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [All imports are unused.]
+        ~                       [missing whitespace]
+                ~               [missing whitespace]
+                               ~nil [Missing semicolon]
+
+preProcessFile('const x = 10')
+                              ~nil [Missing semicolon]

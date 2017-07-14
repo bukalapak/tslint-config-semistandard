@@ -1,0 +1,5 @@
+export function cb (err) {
+                    ~~~    [Expected error to be handled]
+  console.log('hello world')
+                            ~nil [Missing semicolon]
+}
