@@ -1,1 +1,6 @@
-module.exports = require('./tslint.json');
+module.exports = {
+  extends: ['tslint-config-standard'],
+  rules: {
+    'semicolon': [true, 'always']
+  }
+}
