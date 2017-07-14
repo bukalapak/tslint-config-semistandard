@@ -9,7 +9,6 @@
     "LICENSE"
   ],
   "scripts": {
-    "lint": "standard",
     "test": "tslint --project ./test/ --type-check --test ./test/"
   },
   "repository": {
@@ -37,7 +36,6 @@
     "tslint-config-standard": "^6.0.1"
   },
   "devDependencies": {
-    "standard": "^10.0.2",
     "tslint": "^5.5.0",
     "typescript": "^2.4.1"
   }
