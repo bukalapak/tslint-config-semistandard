@@ -1,17 +1,14 @@
 if (true) {
     ~~~~    [unexpected constant condition]
-  console.log('test')
-                     ~nil [Missing semicolon]
+  console.log('test');
 }
 
 while (true) {
   if (check()) {
-    break
-         ~nil [Missing semicolon]
+    break;
   }
 }
 
 export function check () {
-  return true
-             ~nil [Missing semicolon]
+  return true;
 }

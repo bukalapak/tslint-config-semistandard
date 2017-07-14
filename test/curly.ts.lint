@@ -1,10 +1,8 @@
 export function test (err) {
-  if (err) throw err
-                    ~nil [Missing semicolon]
+  if (err) throw err;
 
   if (Math.random() > 0.5)
   ~~~~~~~~~~~~~~~~~~~~~~~~
-    return false
-~~~~~~~~~~~~~~~~ [if statements must be braced]
-                ~nil [Missing semicolon]
+    return false;
+~~~~~~~~~~~~~~~~~ [if statements must be braced]
 }
