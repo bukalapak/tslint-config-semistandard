@@ -1,5 +1,6 @@
 # TSLint Config Semi-Standard
 
+[![Build Status](https://travis-ci.org/bukalapak/tslint-config-semistandard.svg?branch=master)](https://travis-ci.org/bukalapak/tslint-config-semistandard)
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/bukalapak/tslint-config-semistandard)
 
 A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/) with semicolons.
