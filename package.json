@@ -5,6 +5,7 @@
   "main": "tslint.js",
   "files": [
     "tslint.js",
+    "tsling.json",
     "README.md",
     "LICENSE"
   ],
