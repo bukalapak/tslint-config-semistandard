@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-semistandard",
-  "version": "6.0.2",
+  "version": "6.0.3",
   "description": "A TSLint config for JavaScript Standard Style with semicolons",
   "main": "tslint.js",
   "files": [
