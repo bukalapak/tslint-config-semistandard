@@ -1,0 +1,44 @@
+{
+  "name": "tslint-config-semistandard",
+  "version": "6.0.1",
+  "description": "A TSLint config for JavaScript Standard Style with semicolons",
+  "main": "tslint.js",
+  "files": [
+    "tslint.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "test": "tslint --project ./test/ --type-check --test ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bukalapak/tslint-config-semistandard.git"
+  },
+  "keywords": [
+    "tslint",
+    "config",
+    "standard",
+    "standardjs",
+    "typescript",
+    "ts"
+  ],
+  "author": {
+    "name": "Alif Rachmawadi",
+    "email": "subosito@bukalapak.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bukalapak/tslint-config-semistandard/issues"
+  },
+  "homepage": "https://github.com/bukalapak/tslint-config-semistandard",
+  "dependencies": {
+    "tslint-config-standard": "^6.0.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  }
+}
