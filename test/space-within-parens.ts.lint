@@ -1,0 +1,4 @@
+function test ( a, b) {
+               ~        [Whitespace within parentheses is not allowed]
+  return a < b;
+}

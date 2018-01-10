@@ -1,10 +1,10 @@
 import{preProcessFile} from 'typescript';
+      ~                                  [A space is required after '{']
       ~                                  [missing whitespace]
-       ~                                 [missing whitespace]
-                     ~                   [missing whitespace]
+                     ~                   [A space is required before '}']
 import {findRule} from 'tslint';
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [All imports are unused.]
-        ~                        [missing whitespace]
-                ~                [missing whitespace]
+       ~                         [A space is required after '{']
+                ~                [A space is required before '}']
 
 preProcessFile('const x = 10');

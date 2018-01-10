@@ -2,5 +2,5 @@ export function exec (cb: () => void) {
   return cb();
 }
 
-exec( ()  => null);
-          ~~       [Multiple spaces found before '=>'.]
+exec(()  => null);
+         ~~       [Multiple spaces found before '=>'.]
