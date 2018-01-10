@@ -9,7 +9,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "tslint --project ./test/ --type-check --test ./test/"
+    "test": "tslint --project ./test/ --test ./test/"
   },
   "repository": {
     "type": "git",
@@ -33,7 +33,8 @@
   },
   "homepage": "https://github.com/bukalapak/tslint-config-semistandard",
   "dependencies": {
-    "tslint-config-standard": "^6.0.1"
+    "tslint-config-standard": "^7.0.0",
+    "tslint-eslint-rules": "^4.1.1"
   },
   "devDependencies": {
     "tslint": "^5.5.0",
