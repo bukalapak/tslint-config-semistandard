@@ -3,7 +3,6 @@ import{preProcessFile} from 'typescript';
       ~                                  [missing whitespace]
                      ~                   [A space is required before '}']
 import {findRule} from 'tslint';
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ [All imports are unused.]
        ~                         [A space is required after '{']
                 ~                [A space is required before '}']
 

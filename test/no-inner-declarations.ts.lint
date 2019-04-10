@@ -3,6 +3,5 @@ export const y: number = 10;
 if (y === 0) {
   function test () {}
   ~~~~~~~~~~~~~~~~~~~ [move function declaration to program root]
-           ~~~~       ['test' is declared but its value is never read.]
                    ~~ [block is empty]
 }
