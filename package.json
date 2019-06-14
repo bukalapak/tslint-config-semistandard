@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/bukalapak/tslint-config-semistandard",
   "dependencies": {
-    "tslint-config-standard": "^8.0.0"
+    "tslint-config-standard": "^8.0.1"
   },
   "devDependencies": {
     "tslint": "^5.8.0",
